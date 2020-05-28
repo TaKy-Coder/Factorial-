@@ -3,18 +3,18 @@
 int factorial();
 int factorial()
 {
-    long int i,n,f=1;
+    long long int i,n,f=1;
     printf("Enter your number");
-    scanf("%ld",&n);
+    scanf("%lld",&n);
     if(n==0)
-    printf("Result is %ld",f);
+    printf("Result is %lld",f);
     else
     {
         for(i=2;i<=n;i++)
         {
             f=f*i;
         }
-    printf("Result is %ld",f);
+    printf("Result is %lld",f);
     }
     
 }
